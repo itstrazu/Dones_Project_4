@@ -4,7 +4,7 @@ import firebaseApp from "../firebaseConfig";
 import { getAuth, onAuthStateChanged, signOut } from "firebase/auth";
 
 function AdminDashboard(){
-
+    
     const [authenticated, setAuthenticated] = useState(false)
     let navigate = useNavigate();
 
